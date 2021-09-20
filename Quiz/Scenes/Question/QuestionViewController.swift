@@ -31,9 +31,11 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
     
     @IBAction func handlerButtonAnswer(_ sender: UIButton) {
         if let indexSelected = indexSelected,
-                   let cell = tableView.cellForRow(at: indexSelected) as? AnswerCell {
-                    
-                }
+           let cell = tableView.cellForRow(at: indexSelected) as? AnswerCell {
+            let answer = question.answer[indexSelected.row]
+            let isCorrect = answer == question.answerCorrect
+            cell.setup(title: question.answer[indexSelected.row], style: isCorrect ? .correct : .incorrect)
+        }
     }
     
     func setupUI() {
@@ -65,7 +67,7 @@ class QuestionViewController: UIViewController, UITableViewDataSource, UITableVi
                     }
                 }
         
-            cell.setup(title: answer, answer: style)
+            cell.setup(title: answer, style: style)
             return cell
         }
         

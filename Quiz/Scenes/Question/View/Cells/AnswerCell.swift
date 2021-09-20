@@ -28,9 +28,9 @@ class AnswerCell: UITableViewCell {
         // Initialization code
     }
     
-    func setup(title: String, answer: Style) {
+    func setup(title: String, style: Style) {
         labelTitle.text = title
-        style = answer
+        self.style = style
         
         viewBackground.layer.cornerRadius = 10
         viewBackground.layer.borderWidth = 1
