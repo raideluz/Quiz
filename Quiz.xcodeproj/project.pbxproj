@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		F4B0E8F726F81C25000CCEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E8F626F81C25000CCEA5 /* AppDelegate.swift */; };
-		F4B0E8FB26F81C25000CCEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E8FA26F81C25000CCEA5 /* ViewController.swift */; };
-		F4B0E8FE26F81C25000CCEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E8FC26F81C25000CCEA5 /* Main.storyboard */; };
 		F4B0E90026F81C27000CCEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E8FF26F81C27000CCEA5 /* Assets.xcassets */; };
 		F4B0E90326F81C27000CCEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E90126F81C27000CCEA5 /* LaunchScreen.storyboard */; };
 		F4B0E91326F81D50000CCEA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E91126F81D50000CCEA5 /* HomeViewController.swift */; };
 		F4B0E91426F81D50000CCEA5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E91226F81D50000CCEA5 /* HomeViewController.xib */; };
+		F4B0E94926F82873000CCEA5 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E94726F82873000CCEA5 /* QuestionViewController.xib */; };
+		F4B0E94F26F82AFB000CCEA5 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E94D26F82AFB000CCEA5 /* AnswerCell.swift */; };
+		F4B0E95026F82AFB000CCEA5 /* AnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B0E94E26F82AFB000CCEA5 /* AnswerCell.xib */; };
+		F4B0E95B26F917EA000CCEA5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E95A26F917E9000CCEA5 /* QuestionViewController.swift */; };
+		F4B0E96126F932D0000CCEA5 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0E96026F932D0000CCEA5 /* QuestionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4B0E8F326F81C25000CCEA5 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B0E8F626F81C25000CCEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4B0E8FA26F81C25000CCEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4B0E8FD26F81C25000CCEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4B0E8FF26F81C27000CCEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B0E90226F81C27000CCEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B0E90426F81C27000CCEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4B0E91126F81D50000CCEA5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F4B0E91226F81D50000CCEA5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F4B0E94726F82873000CCEA5 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		F4B0E94D26F82AFB000CCEA5 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		F4B0E94E26F82AFB000CCEA5 /* AnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerCell.xib; sourceTree = "<group>"; };
+		F4B0E95A26F917E9000CCEA5 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F4B0E96026F932D0000CCEA5 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,7 @@
 				F4B0E90F26F81D32000CCEA5 /* Scenes */,
 				F4B0E90D26F81CA2000CCEA5 /* Sources */,
 				F4B0E90C26F81C71000CCEA5 /* Resources */,
-				F4B0E8FA26F81C25000CCEA5 /* ViewController.swift */,
-				F4B0E8FC26F81C25000CCEA5 /* Main.storyboard */,
+				F4B0E90426F81C27000CCEA5 /* Info.plist */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -72,7 +77,6 @@
 			children = (
 				F4B0E8FF26F81C27000CCEA5 /* Assets.xcassets */,
 				F4B0E90126F81C27000CCEA5 /* LaunchScreen.storyboard */,
-				F4B0E90426F81C27000CCEA5 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -88,6 +92,7 @@
 		F4B0E90F26F81D32000CCEA5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F4B0E94526F827FB000CCEA5 /* Question */,
 				F4B0E91026F81D38000CCEA5 /* Home */,
 			);
 			path = Scenes;
@@ -100,6 +105,42 @@
 				F4B0E91226F81D50000CCEA5 /* HomeViewController.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F4B0E94526F827FB000CCEA5 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				F4B0E95426F8FC78000CCEA5 /* Model */,
+				F4B0E94B26F82AAE000CCEA5 /* View */,
+				F4B0E95A26F917E9000CCEA5 /* QuestionViewController.swift */,
+				F4B0E94726F82873000CCEA5 /* QuestionViewController.xib */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		F4B0E94B26F82AAE000CCEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4B0E94C26F82ABE000CCEA5 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B0E94C26F82ABE000CCEA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F4B0E94D26F82AFB000CCEA5 /* AnswerCell.swift */,
+				F4B0E94E26F82AFB000CCEA5 /* AnswerCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F4B0E95426F8FC78000CCEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4B0E96026F932D0000CCEA5 /* QuestionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +202,8 @@
 			files = (
 				F4B0E90326F81C27000CCEA5 /* LaunchScreen.storyboard in Resources */,
 				F4B0E90026F81C27000CCEA5 /* Assets.xcassets in Resources */,
-				F4B0E8FE26F81C25000CCEA5 /* Main.storyboard in Resources */,
+				F4B0E95026F82AFB000CCEA5 /* AnswerCell.xib in Resources */,
+				F4B0E94926F82873000CCEA5 /* QuestionViewController.xib in Resources */,
 				F4B0E91426F81D50000CCEA5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,23 +215,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B0E8FB26F81C25000CCEA5 /* ViewController.swift in Sources */,
 				F4B0E8F726F81C25000CCEA5 /* AppDelegate.swift in Sources */,
+				F4B0E95B26F917EA000CCEA5 /* QuestionViewController.swift in Sources */,
 				F4B0E91326F81D50000CCEA5 /* HomeViewController.swift in Sources */,
+				F4B0E94F26F82AFB000CCEA5 /* AnswerCell.swift in Sources */,
+				F4B0E96126F932D0000CCEA5 /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4B0E8FC26F81C25000CCEA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4B0E8FD26F81C25000CCEA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4B0E90126F81C27000CCEA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

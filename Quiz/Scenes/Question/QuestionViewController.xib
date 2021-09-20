@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuestionViewController" customModule="Quiz" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="pfS-RY-eQ4" id="eik-k3-ncx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0e-NV-Osc">
+                    <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="XZk-GU-YLX"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pfS-RY-eQ4">
+                    <rect key="frame" x="0.0" y="244" width="414" height="548"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktu-cg-hBF">
+                    <rect key="frame" x="20" y="812" width="374" height="50"/>
+                    <color key="backgroundColor" red="0.46120148900000002" green="0.54886323209999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="fWl-JN-eul"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <state key="normal" title="Responder">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="handlerButtonAnswer:" destination="-1" eventType="touchUpInside" id="Joc-XX-xRZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="pfS-RY-eQ4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5kZ-Mo-l1n"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ktu-cg-hBF" secondAttribute="trailing" constant="20" id="608-Pc-T9W"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pfS-RY-eQ4" secondAttribute="trailing" id="DeQ-o7-IKR"/>
+                <constraint firstItem="pfS-RY-eQ4" firstAttribute="top" secondItem="W0e-NV-Osc" secondAttribute="bottom" id="K96-q0-BFF"/>
+                <constraint firstItem="W0e-NV-Osc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Pdv-we-XFY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="W0e-NV-Osc" secondAttribute="trailing" id="iN5-tL-OYv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ktu-cg-hBF" secondAttribute="bottom" id="mY4-UV-G1G"/>
+                <constraint firstItem="W0e-NV-Osc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="pOM-0G-c3F"/>
+                <constraint firstItem="ktu-cg-hBF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="uG9-nH-CVE"/>
+                <constraint firstItem="ktu-cg-hBF" firstAttribute="top" secondItem="pfS-RY-eQ4" secondAttribute="bottom" constant="20" id="ylI-Kv-JDc"/>
+            </constraints>
+            <point key="canvasLocation" x="-159.42028985507247" y="133.92857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
